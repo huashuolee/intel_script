@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo $#
 echo $*
@@ -7,13 +7,13 @@ echo $*
 #break
 #done
 #echo "You select:  " $i
-echo "input text below: "
-echo "abdc b"
+echo "input your choice: "
 read var
 case $var in 
-    abdc) echo "case1";;
-    b)    echo "case2";;
-
+    1) echo "case1";;
+    2) echo "case2";;
+    3) echo "case3";;
+    *) echo "pls input 1,2,3"
 esac
 
 #for i in {1..100}; do

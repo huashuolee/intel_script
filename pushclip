@@ -1,0 +1,18 @@
+#!/bin/bash
+
+getDevices(){
+    ss = ""
+    [[ -n $1 ]] && ss = "-s $1" 
+    echo "pls select a device"
+    adb devices
+}
+
+getDevices_new(){
+    if [ -n " adb devices |sed -n '3p' " ]; then
+        adb devices
+    else
+        echo "only one device"
+    fi
+}
+
+getDevices_new
