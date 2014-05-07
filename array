@@ -1,0 +1,21 @@
+!/bin/bash
+
+echo $#
+echo $*
+
+#select i in "a" "b" "c" "d"; do
+#break
+#done
+#echo "You select:  " $i
+echo "input text below: "
+echo "abdc b"
+read var
+case $var in 
+    abdc) echo "case1";;
+    b)    echo "case2";;
+
+esac
+
+#for i in {1..100}; do
+#echo $i
+#done
