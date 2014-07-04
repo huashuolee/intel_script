@@ -1,0 +1,27 @@
+#!/bin/bash
+adb devices 
+ss=""
+[[ -n $1 ]] && ss="-s $1"
+
+
+echo "Press a key to start catching logs (c:\logs), the logs before will be deleted."
+rm -rf ~/logs*
+rm -rf ~/logs
+mkdir -p ~/logs
+echo "Catching logs..."
+adb $ss pull /logs/ ~/logs/aplogs/
+adb $ss pull /logs/panic/ ~/logs/panic/
+adb $ss pull /data/anr/ ~/logs/anr/
+adb $ss pull /data/system/dropbox/ ~/logs/dropbox/
+adb $ss pull /data/tombstones/ ~/logs/tombstone/
+adb $ss pull /sdcard/logs/ ~/logs/sdcard_logs/
+echo "Catching system state, this need ten or more sencond.."
+adb $ss shell dumpstate > ~/logs/dumpstate.txt
+echo "Catching network logs..."
+adb $ss shell busybox ifconfig -a > ~/logs/ifconfig.txt
+adb $ss shell busybox route -n > ~/logs/route.txt
+adb $ss shell lsmod > ~/logs/lsmod.txt
+adb $ss shell cat /proc/mounts > ~/logs/mount.txt
+
+tar -C ~ -zcvf ~/logs_"`date +%m%d%H%M`".tar.gz logs
+echo "over!!!!"
