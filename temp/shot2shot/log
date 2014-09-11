@@ -1,0 +1,1324 @@
+--------- beginning of /dev/log/main
+01-01 01:15:21.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513396137 instead of 4513396137
+01-01 01:15:21.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513437819 instead of 4513437819
+01-01 01:15:21.470 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513562987 instead of 4513562987
+01-01 01:15:21.520 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513604556 instead of 4513604556
+01-01 01:15:21.560 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513646175 instead of 4513646175
+01-01 01:15:21.600 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513688013 instead of 4513688013
+01-01 01:15:21.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513729770 instead of 4513729770
+01-01 01:15:21.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513771343 instead of 4513771343
+01-01 01:15:21.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513938250 instead of 4513938250
+01-01 01:15:21.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4513979549 instead of 4513979549
+01-01 01:15:21.930 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514021521 instead of 4514021521
+01-01 01:15:21.980 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514063118 instead of 4514063118
+01-01 01:15:22.020 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514104589 instead of 4514104589
+01-01 01:15:22.030 D/Camera_DebugFrameRate(  245): time: 2.000361 seconds, frames: 48, fps: 23.995665
+01-01 01:15:22.060 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514146785 instead of 4514146785
+01-01 01:15:22.100 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514188252 instead of 4514188252
+01-01 01:15:22.140 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514229633 instead of 4514229633
+01-01 01:15:22.150 D/AudioIntelHal(  245): stopStream: output stream
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: Selection criterion changed event: Criterion name: OutputFlags, current state: <none>
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: Configuration application request {
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:     Applying configurations {
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "NotApplicable" from domain "StreamRoute.Media.Playback"
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "No" from domain "Route.HwCodec0IA.Playback.Applicable"
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "NotSelected" from domain "Parameter.Outputflags.Primary"
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:     } Applying configurations
+01-01 01:15:22.150 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: } Configuration application request
+01-01 01:15:22.150 D/EVENT_THREAD(  245): void CEventThread::trig(void*, uint32_t): in
+01-01 01:15:22.150 D/EVENT_THREAD(  245): void CEventThread::trig(void*, uint32_t): out
+01-01 01:15:22.150 D/RouteManager(  245): doReconsiderRouting: Route state:
+01-01 01:15:22.150 D/RouteManager(  245): 	-Previously Enabled Route in Input = <none>
+01-01 01:15:22.150 D/RouteManager(  245): 	-Previously Enabled Route in Output = Media|HwCodec0IA
+01-01 01:15:22.150 D/RouteManager(  245): 	-Selected Route in Input = <none>
+01-01 01:15:22.150 D/RouteManager(  245): 	-Selected Route in Output = <none>
+01-01 01:15:22.150 D/RouteManager(  245): 		-executeMuteRoutingStage-
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: Media|HwCodec0IA
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: <none>
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Mute" from domain "Routing.Sst.Mute.HwCodec.Playback.Internal"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Mute" from domain "Routing.Sst.Mute.Media.Playback.Regular"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Mute" from domain "Routing.Mute.CodecWM8958.Playback.Internal.IHF"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:22.150 D/RouteManager(  245): 		-executeDisableRoutingStage-
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Locked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Uplink"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Locked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Downlink"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Disable" from domain "Routing.Enable.CodecWM8958.Playback.Internal.Speaker"
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:22.150 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:22.150 D/TinyAlsaAudioDevice(  245): close
+01-01 01:15:22.160 D/RouteManager(  245): 		-executeConfigureRoutingStage-
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: <none>
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: OutputFlags, current state: <none>
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unbind" from domain "Routing.Sst.Configure.Playback.SpeakerEqToSprot"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unbind" from domain "Routing.Sst.Configure.Playback.Media.ToSpeakerEq"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unbind" from domain "Routing.Sst.Configure.Playback.HwCodec.SprotToSpeaker"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Disable" from domain "Routing.Configure.CodecWM8958.Playback"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unbind" from domain "Routing.Configure.CodecWM8958.AIF.Playback.Internal"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:22.160 D/RouteManager(  245): 		-executeEnableRoutingStage-
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "UnLocked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Uplink"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "UnLocked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Downlink"
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:22.160 D/RouteManager(  245): 		-executeUnmuteRoutingStage
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:22.160 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:22.160 D/RouteManager(  245): doReconsiderRouting: DONE
+01-01 01:15:22.160 D/EVENT_THREAD(  245): void CEventThread::run() Do poll with timeout: -1
+--------- beginning of /dev/log/system
+01-01 01:15:22.160 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4514304930451, TAG=AudioMix, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:22.190 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514271597 instead of 4514271597
+01-01 01:15:22.230 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514312969 instead of 4514312969
+01-01 01:15:22.270 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514354789 instead of 4514354789
+01-01 01:15:22.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514396259 instead of 4514396259
+01-01 01:15:22.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514438283 instead of 4514438283
+01-01 01:15:22.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514479954 instead of 4514479954
+01-01 01:15:22.430 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514521438 instead of 4514521438
+01-01 01:15:22.470 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514563060 instead of 4514563060
+01-01 01:15:22.520 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514604727 instead of 4514604727
+01-01 01:15:22.560 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514646496 instead of 4514646496
+01-01 01:15:22.600 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514688315 instead of 4514688315
+01-01 01:15:22.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514729794 instead of 4514729794
+01-01 01:15:22.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514771473 instead of 4514771473
+01-01 01:15:22.720 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514813096 instead of 4514813096
+01-01 01:15:22.730 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.730 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.740 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.740 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.740 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.770 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514854940 instead of 4514854940
+01-01 01:15:22.810 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514896674 instead of 4514896674
+01-01 01:15:22.830 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:22.830 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:22.830 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 214901291 us, Diff: 4222477 us
+01-01 01:15:22.830 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:22.850 V/CAM_PhotoModule( 3920): mAutoFocusTime = 19ms
+01-01 01:15:22.850 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:22.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514938152 instead of 4514938152
+01-01 01:15:22.850 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 214926028 us, Diff: 24736 us
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 214926765 us, Diff: 730 us
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): shot2shot latency: 4614420 us.
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 214926967 us, Diff: 198 us
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 214927020 us, Diff: 49 us
+01-01 01:15:22.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 214927218 us, Diff: 191 us
+01-01 01:15:22.860 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 214934463 us, Diff: 7244 us
+01-01 01:15:22.860 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 214935158 us, Diff: 693 us
+01-01 01:15:22.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4514979724 instead of 4514979724
+01-01 01:15:22.970 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:22.970 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.000 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.000 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.010 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.010 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.070 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 215139679 us, Diff: 204515 us
+01-01 01:15:23.070 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	210ms
+01-01 01:15:23.070 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:23.070 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:23.070 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:23.070 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:23.070 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 215142783 us, Diff: 3044 us
+01-01 01:15:23.070 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 215142838 us, Diff: 53 us
+01-01 01:15:23.070 D/AudioPolicyManagerALSA(  245): startOutput() output 2, stream type 7, session 66
+01-01 01:15:23.070 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4515217091911, TAG=AudioMix, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:23.080 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 215155433 us, Diff: 12591 us
+01-01 01:15:23.080 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 215156306 us, Diff: 869 us
+01-01 01:15:23.090 D/AudioIntelHal(  245): setStreamParameters: key value pair android_mode=0;output_devices=2
+01-01 01:15:23.090 D/AudioIntelHal/AudioPlatformState(  245): setParameters: key value pair android_mode=0;output_devices=2
+01-01 01:15:23.090 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:23.090 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:23.100 D/PROPERTY(  245): get media.dump_output.befconv: 0
+01-01 01:15:23.100 D/PROPERTY(  245): get media.dump_output.aftconv: 0
+01-01 01:15:23.100 D/AudioIntelHal(  245): startStream: output stream
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: Selection criterion changed event: Criterion name: OutputFlags, current state: Primary
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: Configuration application request {
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:     Applying configurations {
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "Applicable" from domain "StreamRoute.Media.Playback"
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "Yes" from domain "Route.HwCodec0IA.Playback.Applicable"
+01-01 01:15:23.100 V/CAM_PhotoModule( 3920): mShutterLag = 256ms
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:         Applying configuration "Selected" from domain "Parameter.Outputflags.Primary"
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager:     } Applying configurations
+01-01 01:15:23.100 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:23.100 D/AudioIntelHal/AudioPlatformState(  245): route-parameter-manager: } Configuration application request
+01-01 01:15:23.100 D/EVENT_THREAD(  245): void CEventThread::trig(void*, uint32_t): in
+01-01 01:15:23.100 D/EVENT_THREAD(  245): void CEventThread::trig(void*, uint32_t): out
+01-01 01:15:23.100 D/RouteManager(  245): doReconsiderRouting: Route state:
+01-01 01:15:23.100 D/RouteManager(  245): 	-Previously Enabled Route in Input = <none>
+01-01 01:15:23.100 D/RouteManager(  245): 	-Previously Enabled Route in Output = <none>
+01-01 01:15:23.100 D/RouteManager(  245): 	-Selected Route in Input = <none>
+01-01 01:15:23.100 D/RouteManager(  245): 	-Selected Route in Output = Media|HwCodec0IA
+01-01 01:15:23.100 D/RouteManager(  245): 		-executeMuteRoutingStage-
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:23.100 D/RouteManager(  245): 		-executeDisableRoutingStage-
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:23.100 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Locked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Uplink"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Locked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Downlink"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:23.110 D/RouteManager(  245): 		-executeConfigureRoutingStage-
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: Media|HwCodec0IA
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: OutputFlags, current state: AUDIO_OUTPUT_FLAG_PRIMARY
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Bind" from domain "Routing.Sst.Configure.Playback.SpeakerEqToSprot"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Bind" from domain "Routing.Sst.Configure.Playback.Media.ToSpeakerEq"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Bind" from domain "Routing.Sst.Configure.Playback.HwCodec.SprotToSpeaker"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Enable" from domain "Routing.Configure.CodecWM8958.Playback"
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "SpeakerEarpieceBind" from domain "Routing.Configure.CodecWM8958.AIF.Playback.Internal"
+01-01 01:15:23.110 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 8ms
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:23.110 D/RouteManager(  245): 		-executeEnableRoutingStage-
+01-01 01:15:23.110 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+01-01 01:15:23.110 D/TinyAlsaAudioDevice(  245): open card (wm8958audio,0) with config (rate(48000), format(0), channels(2))
+01-01 01:15:23.110 D/TinyAlsaAudioDevice(  245): open	 RingBuffer config: periodSize=1152, nbPeriod=4 startTh=1151, stop Th=4608 silence Th=0
+01-01 01:15:23.140 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515063013 instead of 4515063013
+01-01 01:15:23.140 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:23.140 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:23.140 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "UnLocked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Uplink"
+01-01 01:15:23.140 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "UnLocked" from domain "Routing.Sst.Enable.VoiceProcessingLock.Downlink"
+01-01 01:15:23.140 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "SpeakerEnable" from domain "Routing.Enable.CodecWM8958.Playback.Internal.Speaker"
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:23.150 D/AudioConversion(  245): configure: no convertion required
+01-01 01:15:23.150 D/RouteManager(  245): 		-executeUnmuteRoutingStage
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager: Configuration application request {
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:     Applying configurations {
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unmute" from domain "Routing.Sst.Mute.HwCodec.Playback.Internal"
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unmute" from domain "Routing.Sst.Mute.Media.Playback.Regular"
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:         Applying configuration "Unmute" from domain "Routing.Mute.CodecWM8958.Playback.Internal.IHF"
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager:     } Applying configurations
+01-01 01:15:23.150 D/RouteManager(  245): audio-parameter-manager: } Configuration application request
+01-01 01:15:23.150 D/RouteManager(  245): doReconsiderRouting: DONE
+01-01 01:15:23.150 D/EVENT_THREAD(  245): void CEventThread::run() Do poll with timeout: -1
+01-01 01:15:23.150 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:23.180 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515271375 instead of 4515271375
+01-01 01:15:23.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.210 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 215281679 us, Diff: 125370 us
+01-01 01:15:23.220 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.220 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 113ms
+01-01 01:15:23.220 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:23.220 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:23.220 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 215297357 us, Diff: 15676 us
+01-01 01:15:23.220 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:23.230 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:23.230 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:23.230 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 215303353 us, Diff: 5995 us
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:23.230 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 215303579 us, Diff: 224 us
+01-01 01:15:23.230 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:23.240 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:23.240 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 18ms
+01-01 01:15:23.250 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.250 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.250 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.250 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.280 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:23.280 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:23.280 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23679MB, input size : 128MB.
+01-01 01:15:23.290 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7969K, 59% free 20048K/48340K, paused 6ms, total 6ms
+01-01 01:15:23.300 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:23.300 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515396482 instead of 4515396482
+01-01 01:15:23.310 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:23.310 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.320 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:23.320 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.320 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.320 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.320 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.320 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515438109 instead of 4515438109
+01-01 01:15:23.360 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:23.360 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4515506573523, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:23.380 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.380 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.390 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.390 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.390 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515479756 instead of 4515479756
+01-01 01:15:23.390 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.390 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.390 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.390 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.450 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:23.450 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:23.450 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 215519501 us, Diff: 215921 us
+01-01 01:15:23.450 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:23.450 V/CAM_PhotoModule( 3920): mAutoFocusTime = 9ms
+01-01 01:15:23.460 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:23.460 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 215529878 us, Diff: 10375 us
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 215530067 us, Diff: 188 us
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): shot2shot latency: 603178 us.
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 215530198 us, Diff: 131 us
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 215530227 us, Diff: 28 us
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 215530361 us, Diff: 132 us
+01-01 01:15:23.460 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.460 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.460 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.460 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 215534166 us, Diff: 3803 us
+01-01 01:15:23.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 215534978 us, Diff: 810 us
+01-01 01:15:23.470 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515563096 instead of 4515563096
+01-01 01:15:23.540 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4306K, 54% free 22365K/48340K, paused 5ms, total 5ms
+01-01 01:15:23.560 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.560 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.570 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.570 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.580 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.650 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4515792322972, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:23.670 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.670 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.670 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.670 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.690 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 215764405 us, Diff: 229422 us
+01-01 01:15:23.690 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	231ms
+01-01 01:15:23.690 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:23.690 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:23.690 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:23.690 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:23.690 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 215767115 us, Diff: 2709 us
+01-01 01:15:23.690 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 215767125 us, Diff: 10 us
+01-01 01:15:23.690 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:23.700 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:23.700 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:23.700 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 215774085 us, Diff: 6958 us
+01-01 01:15:23.700 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 215774392 us, Diff: 306 us
+01-01 01:15:23.700 V/CAM_PhotoModule( 3920): mShutterLag = 246ms
+01-01 01:15:23.700 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:23.700 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:23.760 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/null]{container=0}
+01-01 01:15:23.760 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.760 D/VtsvService(  653): Received intent: android.intent.action.BATTERY_CHANGED
+01-01 01:15:23.760 D/VtsvService(  653): [checkPowerPolicy]
+01-01 01:15:23.760 D/ServiceState(  653): mUserId               = 0
+01-01 01:15:23.760 D/ServiceState(  653): mMode                 = 0
+01-01 01:15:23.760 D/ServiceState(  653): mSpottedTime          = 0
+01-01 01:15:23.760 D/ServiceState(  653): mSpottedPhraseId      = 0
+01-01 01:15:23.760 D/ServiceState(  653): mPowerPolicy          = 0
+01-01 01:15:23.760 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.760 D/ServiceState(  653): mIsSleep              = false
+01-01 01:15:23.760 D/ServiceState(  653): mIsBatteryLowSleeping = false
+01-01 01:15:23.760 D/ServiceState(  653): mIsIntervalSleeping   = false
+01-01 01:15:23.760 D/VtsvService(  653): isSleeping: false, isEnrolling: false, hasRequest: false, notStartYet: true
+01-01 01:15:23.760 D/VtsvService(  653): VT should not be started
+01-01 01:15:23.760 D/ServiceState(  653): mUserId               = 0
+01-01 01:15:23.760 D/ServiceState(  653): mMode                 = 0
+01-01 01:15:23.760 D/ServiceState(  653): mSpottedTime          = 0
+01-01 01:15:23.760 D/ServiceState(  653): mSpottedPhraseId      = 0
+01-01 01:15:23.760 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.760 D/ServiceState(  653): mPowerPolicy          = 0
+01-01 01:15:23.760 D/ServiceState(  653): mIsSleep              = false
+01-01 01:15:23.760 D/ServiceState(  653): mIsBatteryLowSleeping = false
+01-01 01:15:23.760 D/ServiceState(  653): mIsIntervalSleeping   = false
+01-01 01:15:23.770 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515688085 instead of 4515688085
+01-01 01:15:23.770 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.770 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.780 I/PowerUI (  813): Showing Charger Warning...
+01-01 01:15:23.790 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.810 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515896571 instead of 4515896571
+01-01 01:15:23.820 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 215893066 us, Diff: 118672 us
+01-01 01:15:23.820 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.820 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.820 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.830 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.840 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 136ms
+01-01 01:15:23.840 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:23.840 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 215911960 us, Diff: 18892 us
+01-01 01:15:23.840 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:23.840 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:23.840 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:23.840 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 215918096 us, Diff: 6134 us
+01-01 01:15:23.840 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:23.850 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 215918824 us, Diff: 726 us
+01-01 01:15:23.850 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:23.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515938184 instead of 4515938184
+01-01 01:15:23.850 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:23.860 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 18ms
+01-01 01:15:23.870 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:23.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4515979914 instead of 4515979914
+01-01 01:15:23.890 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:23.910 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23677MB, input size : 128MB.
+01-01 01:15:23.910 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7413K, 58% free 20479K/48340K, paused 10ms, total 10ms
+01-01 01:15:23.910 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.910 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.910 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.910 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:23.910 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.920 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.920 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.920 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.930 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:23.930 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.930 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516021527 instead of 4516021527
+01-01 01:15:23.940 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:23.940 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:23.940 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:23.970 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516063241 instead of 4516063241
+01-01 01:15:23.980 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:23.980 I/dispmgr (  666): message from kernel received.
+01-01 01:15:23.980 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:23.980 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.010 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:24.010 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:24.010 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:24.010 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 216086025 us, Diff: 167199 us
+01-01 01:15:24.010 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4516151671400, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:24.020 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516104839 instead of 4516104839
+01-01 01:15:24.030 D/Camera_DebugFrameRate(  245): time: 2.000096 seconds, frames: 38, fps: 18.999086
+01-01 01:15:24.030 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:24.030 V/CAM_PhotoModule( 3920): mAutoFocusTime = 23ms
+01-01 01:15:24.040 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:24.040 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 216111836 us, Diff: 25805 us
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 216112303 us, Diff: 466 us
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): shot2shot latency: 582136 us.
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 216112341 us, Diff: 37 us
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 216112347 us, Diff: 6 us
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 216112388 us, Diff: 39 us
+01-01 01:15:24.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 216117979 us, Diff: 5590 us
+01-01 01:15:24.050 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 216118508 us, Diff: 527 us
+01-01 01:15:24.050 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.050 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.050 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.050 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.060 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516146505 instead of 4516146505
+01-01 01:15:24.100 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516188179 instead of 4516188179
+01-01 01:15:24.180 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4307K, 53% free 22796K/48340K, paused 5ms, total 5ms
+01-01 01:15:24.270 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 216347723 us, Diff: 229213 us
+01-01 01:15:24.270 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	232ms
+01-01 01:15:24.280 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:24.280 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:24.280 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:24.280 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 216348693 us, Diff: 969 us
+01-01 01:15:24.280 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 216348704 us, Diff: 10 us
+01-01 01:15:24.280 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:24.280 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:24.280 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:24.280 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 216354171 us, Diff: 5466 us
+01-01 01:15:24.280 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 216354453 us, Diff: 281 us
+01-01 01:15:24.290 V/CAM_PhotoModule( 3920): mShutterLag = 254ms
+01-01 01:15:24.290 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 1ms
+01-01 01:15:24.290 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 2ms
+01-01 01:15:24.290 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4516438286041, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:24.300 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:24.310 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.310 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.310 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.310 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.310 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.310 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.320 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.320 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.340 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516271504 instead of 4516271504
+01-01 01:15:24.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516479857 instead of 4516479857
+01-01 01:15:24.400 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 216475321 us, Diff: 120864 us
+01-01 01:15:24.420 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 125ms
+01-01 01:15:24.420 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:24.420 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:24.420 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 216490754 us, Diff: 15429 us
+01-01 01:15:24.420 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:24.420 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:24.430 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:24.430 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:24.430 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:24.430 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:24.430 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516521668 instead of 4516521668
+01-01 01:15:24.430 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:24.430 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:24.440 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 216508682 us, Diff: 17927 us
+01-01 01:15:24.440 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:24.440 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 216508865 us, Diff: 182 us
+01-01 01:15:24.440 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:24.440 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:24.440 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 27ms
+01-01 01:15:24.450 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.450 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.450 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.450 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.450 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:24.480 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516563200 instead of 4516563200
+01-01 01:15:24.500 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.510 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.520 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516605011 instead of 4516605011
+01-01 01:15:24.520 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.520 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.520 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.520 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.520 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:24.520 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.530 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.530 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23675MB, input size : 128MB.
+01-01 01:15:24.530 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.550 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7843K, 59% free 20123K/48340K, paused 15ms, total 16ms
+01-01 01:15:24.580 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:24.580 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:24.590 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.590 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.590 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.590 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.600 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516688267 instead of 4516688267
+01-01 01:15:24.630 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:24.630 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4516777950382, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:24.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516729957 instead of 4516729957
+01-01 01:15:24.650 D/dalvikvm(  653): GC_EXPLICIT freed 514K, 36% free 15707K/24232K, paused 5ms+4ms, total 63ms
+01-01 01:15:24.650 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:24.650 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:24.660 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:24.660 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:24.660 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 216735702 us, Diff: 226835 us
+01-01 01:15:24.670 V/CAM_PhotoModule( 3920): mAutoFocusTime = 8ms
+01-01 01:15:24.670 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:24.670 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:24.670 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=1
+01-01 01:15:24.670 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:24.670 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:24.670 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:24.670 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 216748219 us, Diff: 12515 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 216748388 us, Diff: 167 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): shot2shot latency: 636117 us.
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 216748512 us, Diff: 123 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 216748568 us, Diff: 55 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 216748657 us, Diff: 87 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 216752881 us, Diff: 4223 us
+01-01 01:15:24.680 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 216753576 us, Diff: 694 us
+01-01 01:15:24.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516771636 instead of 4516771636
+01-01 01:15:24.700 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.700 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.710 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.710 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.720 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516813277 instead of 4516813277
+01-01 01:15:24.730 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.760 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.760 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.760 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.760 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.830 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4381K, 54% free 22439K/48340K, paused 13ms, total 13ms
+01-01 01:15:24.890 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4517039790492, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:24.900 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 216973200 us, Diff: 219619 us
+01-01 01:15:24.900 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	221ms
+01-01 01:15:24.900 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:24.900 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:24.900 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 216976594 us, Diff: 3392 us
+01-01 01:15:24.900 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 216976643 us, Diff: 46 us
+01-01 01:15:24.900 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:24.900 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:24.910 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:24.910 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:24.920 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 216989414 us, Diff: 12768 us
+01-01 01:15:24.920 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 216990090 us, Diff: 673 us
+01-01 01:15:24.920 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:24.920 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.920 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.920 V/CAM_PhotoModule( 3920): mShutterLag = 252ms
+01-01 01:15:24.930 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 1ms
+01-01 01:15:24.930 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:24.950 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.950 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.950 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:24.950 I/dispmgr (  666): message from kernel received.
+01-01 01:15:24.950 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:24.950 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:24.960 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.960 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:24.970 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4516896582 instead of 4516896582
+01-01 01:15:25.020 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517104956 instead of 4517104956
+01-01 01:15:25.030 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 217099240 us, Diff: 109148 us
+01-01 01:15:25.030 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 109ms
+01-01 01:15:25.030 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:25.030 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:25.030 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 217108080 us, Diff: 8839 us
+01-01 01:15:25.040 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:25.040 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:25.040 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:25.040 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:25.040 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:25.040 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:25.050 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:25.050 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:25.050 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 217119076 us, Diff: 10995 us
+01-01 01:15:25.050 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:25.050 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 217119195 us, Diff: 117 us
+01-01 01:15:25.050 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:25.050 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:25.050 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 16ms
+01-01 01:15:25.080 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:25.090 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.090 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.090 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.090 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.100 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.100 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.100 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:25.100 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517188299 instead of 4517188299
+01-01 01:15:25.100 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.110 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.110 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.120 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7480K, 59% free 20098K/48340K, paused 8ms, total 8ms
+01-01 01:15:25.120 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23672MB, input size : 128MB.
+01-01 01:15:25.130 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.130 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.140 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.140 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.140 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.140 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517230006 instead of 4517230006
+01-01 01:15:25.140 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.170 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:25.170 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:25.180 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 217248408 us, Diff: 129211 us
+01-01 01:15:25.180 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.180 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.180 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.180 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.180 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517271741 instead of 4517271741
+01-01 01:15:25.190 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:25.190 V/CAM_PhotoModule( 3920): mAutoFocusTime = 18ms
+01-01 01:15:25.190 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:25.200 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 217268840 us, Diff: 20429 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 217269061 us, Diff: 218 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): shot2shot latency: 520577 us.
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 217269116 us, Diff: 54 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 217269221 us, Diff: 103 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 217269281 us, Diff: 58 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 217275938 us, Diff: 6655 us
+01-01 01:15:25.200 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 217276651 us, Diff: 710 us
+01-01 01:15:25.230 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:25.230 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4517377850338, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:25.250 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.250 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.250 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.250 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.300 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.300 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.300 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.300 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.310 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.400 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 217473319 us, Diff: 196663 us
+01-01 01:15:25.400 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	201ms
+01-01 01:15:25.400 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:25.400 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:25.400 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:25.400 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 217475373 us, Diff: 2052 us
+01-01 01:15:25.400 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 217475498 us, Diff: 124 us
+01-01 01:15:25.400 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:25.400 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:25.400 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:25.400 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4304K, 54% free 22414K/48340K, paused 7ms, total 9ms
+01-01 01:15:25.410 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 217487485 us, Diff: 11983 us
+01-01 01:15:25.420 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 217489408 us, Diff: 1919 us
+01-01 01:15:25.420 V/CAM_PhotoModule( 3920): mShutterLag = 229ms
+01-01 01:15:25.420 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 1ms
+01-01 01:15:25.420 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:25.420 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:25.480 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517396684 instead of 4517396684
+01-01 01:15:25.500 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.500 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.510 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.510 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.520 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.520 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4517663816060, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:25.540 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.540 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.540 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.540 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.540 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 217618097 us, Diff: 128685 us
+01-01 01:15:25.560 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517646760 instead of 4517646760
+01-01 01:15:25.560 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 137ms
+01-01 01:15:25.560 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:25.560 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:25.560 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 217634659 us, Diff: 16559 us
+01-01 01:15:25.560 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:25.560 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:25.570 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:25.570 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:25.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 217642432 us, Diff: 7771 us
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:25.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 217642560 us, Diff: 125 us
+01-01 01:15:25.570 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:25.580 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:25.580 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 16ms
+01-01 01:15:25.600 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517688443 instead of 4517688443
+01-01 01:15:25.610 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:25.620 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:25.630 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23670MB, input size : 128MB.
+01-01 01:15:25.630 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7446K, 58% free 20438K/48340K, paused 8ms, total 8ms
+01-01 01:15:25.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517730103 instead of 4517730103
+01-01 01:15:25.660 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.660 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.660 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.660 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.660 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.660 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.660 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:25.660 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:25.660 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.660 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.670 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.670 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.680 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517771740 instead of 4517771740
+01-01 01:15:25.730 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517813499 instead of 4517813499
+01-01 01:15:25.730 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:25.730 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:25.730 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 217804154 us, Diff: 161592 us
+01-01 01:15:25.750 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:25.750 V/CAM_PhotoModule( 3920): mAutoFocusTime = 16ms
+01-01 01:15:25.750 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:25.750 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 217822980 us, Diff: 18824 us
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 217823300 us, Diff: 319 us
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): shot2shot latency: 554216 us.
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 217823344 us, Diff: 43 us
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 217823365 us, Diff: 19 us
+01-01 01:15:25.750 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 217823475 us, Diff: 108 us
+01-01 01:15:25.760 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 217834073 us, Diff: 10596 us
+01-01 01:15:25.760 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:25.760 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 217838014 us, Diff: 3939 us
+01-01 01:15:25.760 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4517906506507, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:25.790 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:25.790 I/dispmgr (  666): message from kernel received.
+01-01 01:15:25.790 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:25.790 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:25.850 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.850 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.860 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.860 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.880 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:25.980 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4314K, 53% free 22755K/48340K, paused 7ms, total 7ms
+01-01 01:15:25.980 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 218056642 us, Diff: 218627 us
+01-01 01:15:25.980 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	230ms
+01-01 01:15:25.980 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:25.990 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:25.990 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:25.990 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:25.990 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:25.990 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:25.990 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 218058984 us, Diff: 2341 us
+01-01 01:15:25.990 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 218058995 us, Diff: 9 us
+01-01 01:15:25.990 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 218066435 us, Diff: 7439 us
+01-01 01:15:25.990 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 218066793 us, Diff: 358 us
+01-01 01:15:26.000 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:26.000 V/CAM_PhotoModule( 3920): mShutterLag = 259ms
+01-01 01:15:26.010 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:26.010 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:26.020 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4518169725811, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:26.030 D/Camera_DebugFrameRate(  245): time: 2.000105 seconds, frames: 28, fps: 13.999263
+01-01 01:15:26.050 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.050 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.060 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.060 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.060 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4517980186 instead of 4517980186
+01-01 01:15:26.070 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.100 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.100 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.100 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.100 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:26.100 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 218176366 us, Diff: 109571 us
+01-01 01:15:26.110 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 104ms
+01-01 01:15:26.110 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:26.110 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:26.110 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 218184736 us, Diff: 8367 us
+01-01 01:15:26.120 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:26.120 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:26.120 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:26.120 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 218197385 us, Diff: 12647 us
+01-01 01:15:26.120 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:26.120 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 218197899 us, Diff: 512 us
+01-01 01:15:26.130 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:26.140 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:26.140 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 27ms
+01-01 01:15:26.140 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518230396 instead of 4518230396
+01-01 01:15:26.150 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:26.180 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518271962 instead of 4518271962
+01-01 01:15:26.220 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.220 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.230 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518313739 instead of 4518313739
+01-01 01:15:26.230 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.230 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.240 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.240 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.240 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.240 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:26.240 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.270 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:26.290 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23668MB, input size : 128MB.
+01-01 01:15:26.300 D/dalvikvm( 3920): GC_FOR_ALLOC freed 7798K, 59% free 20207K/48340K, paused 9ms, total 9ms
+01-01 01:15:26.310 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.310 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.310 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.310 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:26.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518396820 instead of 4518396820
+01-01 01:15:26.320 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.320 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.320 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.320 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.320 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.320 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.340 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:26.340 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:26.340 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 218410410 us, Diff: 212509 us
+01-01 01:15:26.340 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:26.340 V/CAM_PhotoModule( 3920): mAutoFocusTime = 8ms
+01-01 01:15:26.350 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:26.350 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 218420995 us, Diff: 10583 us
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 218421183 us, Diff: 187 us
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): shot2shot latency: 597918 us.
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 218421324 us, Diff: 140 us
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 218421343 us, Diff: 19 us
+01-01 01:15:26.350 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 218421503 us, Diff: 159 us
+01-01 01:15:26.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518438702 instead of 4518438702
+01-01 01:15:26.360 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 218429174 us, Diff: 7669 us
+01-01 01:15:26.360 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 218429647 us, Diff: 471 us
+01-01 01:15:26.360 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:26.360 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4518506752880, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:26.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518480227 instead of 4518480227
+01-01 01:15:26.430 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.430 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.430 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.430 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:26.440 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.440 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.450 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.450 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.470 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 218639650 us, Diff: 210001 us
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	215ms
+01-01 01:15:26.570 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:26.570 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 218640774 us, Diff: 1122 us
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 218640785 us, Diff: 10 us
+01-01 01:15:26.570 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:26.570 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:26.570 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:26.570 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 218646947 us, Diff: 6160 us
+01-01 01:15:26.570 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 218647622 us, Diff: 674 us
+01-01 01:15:26.580 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:26.580 V/CAM_PhotoModule( 3920): mShutterLag = 238ms
+01-01 01:15:26.580 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:26.580 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:26.600 D/dalvikvm( 3920): GC_FOR_ALLOC freed 2154K, 54% free 22523K/48340K, paused 5ms, total 6ms
+01-01 01:15:26.610 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4518750709252, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:26.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518563467 instead of 4518563467
+01-01 01:15:26.650 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.650 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.670 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.670 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518771860 instead of 4518771860
+01-01 01:15:26.690 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 218765150 us, Diff: 117526 us
+01-01 01:15:26.710 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.710 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.710 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.710 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:26.710 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.710 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.720 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 139ms
+01-01 01:15:26.720 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:26.720 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:26.720 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 218796068 us, Diff: 30915 us
+01-01 01:15:26.730 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:26.730 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:26.730 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:26.730 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 218807344 us, Diff: 11273 us
+01-01 01:15:26.730 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:26.730 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 218807883 us, Diff: 536 us
+01-01 01:15:26.740 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:26.740 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:26.740 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 20ms
+01-01 01:15:26.780 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:26.810 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518896906 instead of 4518896906
+01-01 01:15:26.830 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.830 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.840 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.840 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.850 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:26.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518938570 instead of 4518938570
+01-01 01:15:26.880 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:26.890 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:26.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4518980279 instead of 4518980279
+01-01 01:15:26.890 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23665MB, input size : 128MB.
+01-01 01:15:26.890 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4519036071562, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:26.900 D/dalvikvm( 3920): GC_FOR_ALLOC freed 9715K, 59% free 20124K/48340K, paused 7ms, total 7ms
+01-01 01:15:26.910 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.910 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.910 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.910 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.910 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:26.910 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:26.930 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:26.930 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:26.930 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 218999988 us, Diff: 192102 us
+01-01 01:15:26.940 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519021897 instead of 4519021897
+01-01 01:15:26.940 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:26.940 V/CAM_PhotoModule( 3920): mAutoFocusTime = 15ms
+01-01 01:15:26.940 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:26.940 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 219016975 us, Diff: 16985 us
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 219017212 us, Diff: 236 us
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): shot2shot latency: 596019 us.
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 219017456 us, Diff: 244 us
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 219017571 us, Diff: 113 us
+01-01 01:15:26.940 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 219017740 us, Diff: 167 us
+01-01 01:15:26.950 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 219022563 us, Diff: 4822 us
+01-01 01:15:26.950 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 219024238 us, Diff: 1673 us
+01-01 01:15:26.980 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519063566 instead of 4519063566
+01-01 01:15:26.980 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:26.980 I/dispmgr (  666): message from kernel received.
+01-01 01:15:26.980 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:26.980 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:27.020 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.020 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.030 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.030 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.040 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.150 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 219223045 us, Diff: 198804 us
+01-01 01:15:27.150 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	203ms
+01-01 01:15:27.150 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:27.150 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:27.150 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:27.150 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:27.150 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 219225096 us, Diff: 2049 us
+01-01 01:15:27.150 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 219225107 us, Diff: 10 us
+01-01 01:15:27.150 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:27.150 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:27.160 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 219234541 us, Diff: 9430 us
+01-01 01:15:27.160 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 219235276 us, Diff: 732 us
+01-01 01:15:27.170 D/dalvikvm( 3920): GC_FOR_ALLOC freed 1135K, 48% free 25592K/48340K, paused 11ms, total 11ms
+01-01 01:15:27.170 V/CAM_PhotoModule( 3920): mShutterLag = 232ms
+01-01 01:15:27.170 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 1ms
+01-01 01:15:27.170 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4519319642657, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:27.180 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:27.180 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 8ms
+01-01 01:15:27.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.200 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.210 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.210 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.220 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.220 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519146914 instead of 4519146914
+01-01 01:15:27.270 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519355238 instead of 4519355238
+01-01 01:15:27.270 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 219342303 us, Diff: 107024 us
+01-01 01:15:27.280 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:27.280 I/dispmgr (  666): message from kernel received.
+01-01 01:15:27.280 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:27.280 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:27.290 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 109ms
+01-01 01:15:27.290 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:27.290 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:27.290 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 219364222 us, Diff: 21918 us
+01-01 01:15:27.290 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:27.290 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:27.290 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:27.300 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:27.300 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 219371583 us, Diff: 7358 us
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:27.300 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 219371807 us, Diff: 221 us
+01-01 01:15:27.300 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:27.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519396953 instead of 4519396953
+01-01 01:15:27.310 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:27.310 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 21ms
+01-01 01:15:27.320 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:27.350 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:27.350 I/dispmgr (  666): message from kernel received.
+01-01 01:15:27.350 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:27.350 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:27.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519438581 instead of 4519438581
+01-01 01:15:27.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519480296 instead of 4519480296
+01-01 01:15:27.400 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.400 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.420 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.420 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.430 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.430 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519521947 instead of 4519521947
+01-01 01:15:27.450 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:27.450 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23663MB, input size : 128MB.
+01-01 01:15:27.460 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:27.460 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:27.480 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519563628 instead of 4519563628
+01-01 01:15:27.480 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:27.480 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:27.500 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:27.500 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:27.500 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 219571260 us, Diff: 199450 us
+01-01 01:15:27.510 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=2
+01-01 01:15:27.510 V/CAM_PhotoModule( 3920): mAutoFocusTime = 9ms
+01-01 01:15:27.510 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:27.510 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 219582080 us, Diff: 10819 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 219582211 us, Diff: 129 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): shot2shot latency: 564908 us.
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 219582380 us, Diff: 169 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 219582388 us, Diff: 7 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 219582426 us, Diff: 36 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 219587444 us, Diff: 5016 us
+01-01 01:15:27.510 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 219587995 us, Diff: 550 us
+01-01 01:15:27.520 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519605334 instead of 4519605334
+01-01 01:15:27.540 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:27.540 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4519682792239, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:27.560 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:27.560 I/dispmgr (  666): message from kernel received.
+01-01 01:15:27.560 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:27.560 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:27.560 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519646942 instead of 4519646942
+01-01 01:15:27.590 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.590 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.610 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.610 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.620 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.620 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.730 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 219806356 us, Diff: 218359 us
+01-01 01:15:27.730 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	221ms
+01-01 01:15:27.730 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:27.730 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:27.730 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:27.740 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:27.740 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 219809731 us, Diff: 3370 us
+01-01 01:15:27.740 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 219809804 us, Diff: 69 us
+01-01 01:15:27.740 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 219812135 us, Diff: 2328 us
+01-01 01:15:27.740 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 219812601 us, Diff: 464 us
+01-01 01:15:27.750 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:27.750 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:27.750 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:27.760 D/dalvikvm( 3920): GC_FOR_ALLOC freed 11786K, 54% free 22523K/48340K, paused 6ms, total 6ms
+01-01 01:15:27.770 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.770 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.770 V/CAM_PhotoModule( 3920): mShutterLag = 268ms
+01-01 01:15:27.770 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:27.770 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 0ms
+01-01 01:15:27.780 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.780 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.780 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4519926535041, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:27.790 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.810 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519730302 instead of 4519730302
+01-01 01:15:27.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519938703 instead of 4519938703
+01-01 01:15:27.870 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 219940260 us, Diff: 127657 us
+01-01 01:15:27.880 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 107ms
+01-01 01:15:27.880 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:27.880 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:27.880 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 219956548 us, Diff: 16283 us
+01-01 01:15:27.890 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:27.890 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:27.890 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:27.890 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 219964011 us, Diff: 7462 us
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:27.890 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 219964211 us, Diff: 198 us
+01-01 01:15:27.890 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:27.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4519980411 instead of 4519980411
+01-01 01:15:27.900 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:27.900 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 14ms
+01-01 01:15:27.900 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:27.900 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:27.900 I/dispmgr (  666): message from kernel received.
+01-01 01:15:27.900 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:27.900 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:27.930 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520022046 instead of 4520022046
+01-01 01:15:27.960 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.960 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.970 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.970 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.980 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520063754 instead of 4520063754
+01-01 01:15:27.980 E/Intel PowerHAL(  653): Error opening /sys/devices/system/cpu/cpufreq/interactive/touchboostpulse: Permission denied
+01-01 01:15:27.980 D/dalvikvm( 3920): GC_FOR_ALLOC freed 9829K, 58% free 20446K/48340K, paused 6ms, total 6ms
+01-01 01:15:28.020 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520105318 instead of 4520105318
+01-01 01:15:28.030 D/Camera_DebugFrameRate(  245): time: 2.000121 seconds, frames: 33, fps: 16.499001
+01-01 01:15:28.040 V/CAM_FocusManager( 3920): Start autofocus.
+01-01 01:15:28.040 D/Camera_HAL(  245): atom_auto_focus
+01-01 01:15:28.040 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageAutoFocus:In, Time: 220113006 us, Diff: 148792 us
+01-01 01:15:28.040 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:28.050 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23661MB, input size : 128MB.
+01-01 01:15:28.060 V/CAM_PhotoModule( 3920): mAutoFocusTime = 17ms
+01-01 01:15:28.060 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:28.060 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520146984 instead of 4520146984
+01-01 01:15:28.060 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:28.060 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:28.070 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:28.070 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:28.080 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:28.080 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:28.090 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 201
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 202
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 203
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 204
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 205
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 206
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 207
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 208
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 209
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 210
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 211
+01-01 01:15:28.090 V/CAM_PhotoModule( 3920): onShutterButtonClick: mCameraState=1
+01-01 01:15:28.090 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 212
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 213
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 214
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 215
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 216
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 217
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 218
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 219
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 220
+01-01 01:15:28.090 D/Camera_HAL(  245): atom_take_picture
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): PnPBreakdown-step takePicture:, Time: 220165822 us, Diff: 52815 us
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::stop:, Time: 220165983 us, Diff: 159 us
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): shot2shot latency: 583644 us.
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Shot2Shot::start:, Time: 220166032 us, Diff: 49 us
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:, Time: 220166046 us, Diff: 13 us
+01-01 01:15:28.090 D/Atom_PerformanceTraces(  245): PnPBreakdown-step allocateBuffers:Mode:[1], Time: 220166102 us, Diff: 55 us
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 221
+01-01 01:15:28.090 I/dalvikvm( 1121): Total arena pages for JIT: 222
+01-01 01:15:28.090 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4520232006316, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:28.100 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[0], Time: 220171371 us, Diff: 5266 us
+01-01 01:15:28.100 D/Atom_PerformanceTraces(  245): PnPBreakdown-step start:DeviceId:[1], Time: 220172151 us, Diff: 776 us
+01-01 01:15:28.100 I/dalvikvm( 1121): Total arena pages for JIT: 223
+01-01 01:15:28.150 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.150 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.150 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.150 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.320 D/Atom_PerformanceTraces(  245): PnPBreakdown-step captureStillPic:ISPGotFrame[1], Time: 220390061 us, Diff: 217905 us
+01-01 01:15:28.320 D/Atom_PerformanceTraces(  245): ShutterLag from takePicture() to shot taken:	221ms
+01-01 01:15:28.320 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:28.320 I/Camera_ControlThread(  245): @recycleUnusedBufferInISP buffers in ISP 0,0
+01-01 01:15:28.320 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:28.320 W/Camera_EXIFMaker(  245): EXIF: Could not query brightness!
+01-01 01:15:28.320 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncode starting[1], Time: 220393867 us, Diff: 3802 us
+01-01 01:15:28.320 D/Atom_PerformanceTraces(  245): PnPBreakdown-step startHwEncoding:In[1], Time: 220393905 us, Diff: 36 us
+01-01 01:15:28.320 D/Camera_HAL(  245): atom_get_parameters
+01-01 01:15:28.320 D/Camera_HAL(  245): atom_put_parameters
+01-01 01:15:28.330 E/AudioSink(  245): received unknown event type: 1 inside CallbackWrapper !
+01-01 01:15:28.330 V/CAM_PhotoModule( 3920): mShutterLag = 243ms
+01-01 01:15:28.330 V/CAM_PhotoModule( 3920): mShutterToRawCallbackTime = 0ms
+01-01 01:15:28.330 V/CAM_PhotoModule( 3920): mShutterToPostViewCallbackTime = 1ms
+01-01 01:15:28.330 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[0], Time: 220407817 us, Diff: 13909 us
+01-01 01:15:28.340 D/Atom_PerformanceTraces(  245): PnPBreakdown-step stop:DeviceId:[1], Time: 220409048 us, Diff: 1227 us
+01-01 01:15:28.350 D/dalvikvm( 3920): GC_FOR_ALLOC freed 3139K, 53% free 22762K/48340K, paused 5ms, total 5ms
+01-01 01:15:28.350 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4520494703193, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:28.430 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520522451 instead of 4520522451
+01-01 01:15:28.450 D/Atom_PerformanceTraces(  245): PnPBreakdown-step encodeToJpeg:frameEncoded[1], Time: 220518624 us, Diff: 109575 us
+01-01 01:15:28.460 V/CAM_PhotoModule( 3920): mPictureDisplayedToJpegCallbackTime = 122ms
+01-01 01:15:28.460 V/CAM_PhotoModule( 3920): stopPreview
+01-01 01:15:28.460 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.460 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.460 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.460 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.460 D/Camera_HAL(  245): atom_stop_preview
+01-01 01:15:28.460 D/Atom_PerformanceTraces(  245): PnPBreakdown-step Switch::start:, Time: 220534303 us, Diff: 15673 us
+01-01 01:15:28.460 D/Camera_HAL(  245): ATOM_GetCameraInfo
+01-01 01:15:28.470 D/Camera_HAL(  245): atom_cancel_auto_focus
+01-01 01:15:28.470 V/CAM_PhotoModule( 3920): Preview size is 960x720
+01-01 01:15:28.470 V/CAM_PhotoModule( 3920): startPreview
+01-01 01:15:28.470 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:28.470 D/Camera_HAL(  245): atom_set_parameters
+01-01 01:15:28.480 D/Camera_HAL(  245): atom_preview_enabled
+01-01 01:15:28.480 D/Camera_HAL(  245): atom_set_preview_window preview_window = 0xf8694120
+01-01 01:15:28.480 D/Atom_PerformanceTraces(  245): PnPBreakdown-step setPreviewWindow:, Time: 220555541 us, Diff: 21236 us
+01-01 01:15:28.480 D/Camera_HAL(  245): atom_start_preview
+01-01 01:15:28.480 D/Atom_PerformanceTraces(  245): PnPBreakdown-step handleMessageStartPreview:, Time: 220557128 us, Diff: 1585 us
+01-01 01:15:28.480 D/Camera_HAL(  245): atom_send_command
+01-01 01:15:28.490 D/CameraStorage( 3920): External storage state=mounted
+01-01 01:15:28.490 V/CAM_PhotoModule( 3920): mJpegCallbackFinishTime = 31ms
+01-01 01:15:28.490 W/Camera_SensorThread(  245): @preventFastLooping, loop running too fast, throttling down!
+01-01 01:15:28.520 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520605794 instead of 4520605794
+01-01 01:15:28.530 D/PVL     (  245): D] tcp : 469833, roll_over : 42, mcp : 11186 min_face_size(54) @ calculate_MCP():331
+01-01 01:15:28.560 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520647118 instead of 4520647118
+01-01 01:15:28.600 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520688804 instead of 4520688804
+01-01 01:15:28.610 D/SyncService( 2461): mObserverMediaImage : onChange (false) matched content://media/external/images/media
+01-01 01:15:28.610 D/GalleryUtils( 2461): [GalleryUtils :: hasSpaceForSize] available size : 23658MB, input size : 128MB.
+01-01 01:15:28.620 D/dalvikvm( 3920): GC_FOR_ALLOC freed 9941K, 59% free 20132K/48340K, paused 9ms, total 9ms
+01-01 01:15:28.630 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:28.630 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:28.640 I/SecurityManagerService(  827): SMS received security event: IPCEvent[BROADCAST_INTENT/com.android.camera2]{container=0}
+01-01 01:15:28.640 V/AsfAosp (  653): No ASF clients are connected
+01-01 01:15:28.640 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520730395 instead of 4520730395
+01-01 01:15:28.660 D/cip_VorbisDec(  245): UMCAudioDecoder::input data read (mSource->read) returned -1011, considering end of stream.
+01-01 01:15:28.660 I/WAKELOCK_ACQUIRE(  653): TIMESTAMP=4520806822882, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:28.670 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.670 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.670 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.670 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520772322 instead of 4520772322
+01-01 01:15:28.730 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520813798 instead of 4520813798
+01-01 01:15:28.750 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.750 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.750 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.750 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.770 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520855418 instead of 4520855418
+01-01 01:15:28.810 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520897102 instead of 4520897102
+01-01 01:15:28.820 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.820 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.820 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.820 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.850 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520939006 instead of 4520939006
+01-01 01:15:28.890 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4520980459 instead of 4520980459
+01-01 01:15:28.920 D/dalvikvm( 3920): GC_FOR_ALLOC freed 4228K, 54% free 22448K/48340K, paused 6ms, total 6ms
+01-01 01:15:28.920 I/WAKELOCK_RELEASE(  653): TIMESTAMP=4521069317007, TAG=TimedEventQueue, TYPE=PARTIAL_WAKE_LOCK             , COUNT=0, PID=245, UID=1013, FLAGS=
+01-01 01:15:28.930 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521022192 instead of 4521022192
+01-01 01:15:28.950 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:28.950 I/dispmgr (  666): message from kernel received.
+01-01 01:15:28.950 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:28.950 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:28.980 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521063794 instead of 4521063794
+01-01 01:15:29.020 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521105536 instead of 4521105536
+01-01 01:15:29.050 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.050 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.050 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.050 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.060 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521147356 instead of 4521147356
+01-01 01:15:29.100 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521188789 instead of 4521188789
+01-01 01:15:29.140 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521230498 instead of 4521230498
+01-01 01:15:29.170 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.170 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.170 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.170 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.240 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.240 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.240 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.240 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.270 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521355585 instead of 4521355585
+01-01 01:15:29.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521397207 instead of 4521397207
+01-01 01:15:29.330 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.330 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.330 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.330 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521439104 instead of 4521439104
+01-01 01:15:29.390 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521480858 instead of 4521480858
+01-01 01:15:29.410 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.410 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.410 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.410 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.480 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521563862 instead of 4521563862
+01-01 01:15:29.480 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.480 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.480 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.480 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.530 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521614166 instead of 4521614166
+01-01 01:15:29.570 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.570 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.570 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.570 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.580 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521663830 instead of 4521663830
+01-01 01:15:29.630 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521713858 instead of 4521713858
+01-01 01:15:29.660 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.660 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.680 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521764065 instead of 4521764065
+01-01 01:15:29.730 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521813978 instead of 4521813978
+01-01 01:15:29.730 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.730 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.730 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.730 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.780 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521864326 instead of 4521864326
+01-01 01:15:29.810 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:29.810 I/dispmgr (  666): message from kernel received.
+01-01 01:15:29.810 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:29.810 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:29.830 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521914110 instead of 4521914110
+01-01 01:15:29.880 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4521964398 instead of 4521964398
+01-01 01:15:29.930 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522014495 instead of 4522014495
+01-01 01:15:29.990 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522014495 instead of 4522014495
+01-01 01:15:30.040 D/Camera_DebugFrameRate(  245): time: 2.000344 seconds, frames: 40, fps: 19.996565
+01-01 01:15:30.050 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522074305 instead of 4522074305
+01-01 01:15:30.110 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522134469 instead of 4522134469
+01-01 01:15:30.170 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522194450 instead of 4522194450
+01-01 01:15:30.230 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522254621 instead of 4522254621
+01-01 01:15:30.230 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:30.230 I/dispmgr (  666): message from kernel received.
+01-01 01:15:30.230 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:30.230 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:30.320 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:30.320 I/dispmgr (  666): message from kernel received.
+01-01 01:15:30.320 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:30.320 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:30.350 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522374672 instead of 4522374672
+01-01 01:15:30.410 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522434635 instead of 4522434635
+01-01 01:15:30.470 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522494933 instead of 4522494933
+01-01 01:15:30.490 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:30.490 I/dispmgr (  666): message from kernel received.
+01-01 01:15:30.490 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:30.490 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:30.530 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522554993 instead of 4522554993
+01-01 01:15:30.590 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522615037 instead of 4522615037
+01-01 01:15:30.660 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:30.660 I/dispmgr (  666): message from kernel received.
+01-01 01:15:30.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:30.660 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:30.710 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522734887 instead of 4522734887
+01-01 01:15:30.770 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522795216 instead of 4522795216
+01-01 01:15:30.830 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522855127 instead of 4522855127
+01-01 01:15:30.950 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4522975158 instead of 4522975158
+01-01 01:15:31.150 I/dispmgr (  666): waiting for message from kernel.
+01-01 01:15:31.150 I/dispmgr (  666): message from kernel received.
+01-01 01:15:31.150 I/dispmgr (  666): DpstAlgorithm_DPST4_5 
+01-01 01:15:31.150 I/dispmgr (  666): DpstAlgorithm_DPST4_5 level is 3
+01-01 01:15:31.190 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4523215290 instead of 4523215290
+01-01 01:15:31.310 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4523335644 instead of 4523335644
+01-01 01:15:31.370 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4523395525 instead of 4523395525
+01-01 01:15:31.430 W/Camera_AAAThread(  245): 1 frames in 3A process queue, handling timestamp 4523455557 instead of 4523455557
