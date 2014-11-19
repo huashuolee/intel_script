@@ -1,17 +1,22 @@
-if __name__ == '__main__':  
-    import socket  
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
-    sock.bind(('localhost', 8001))  
-    sock.listen(5)  
-    while True:  
-        connection,address = sock.accept()  
-        try:  
-            connection.settimeout(5)  
-            buf = connection.recv(1024)  
-            if buf == '1':  
-                connection.send('welcome to server!')  
-            else:  
-                connection.send('please go out!')  
-        except socket.timeout:  
-            print 'time out'  
-        connection.close()
+import socket,os
+HOST = ''
+PORT = 8001
+
+
+server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+server.bind((HOST,PORT))
+server.listen(5)
+
+while 1:
+    conn,addr = server.accept()
+    print addr, "connected" 
+    while 1:
+        data = conn.recv(1024)
+        print "receive ",data, "  from " ,addr
+        if data == "exit" or data == "":
+            print addr , ' disconnect'
+            break
+        conn.sendall('done')
+    conn.sendall("Bye")
+    conn.close()
+
