@@ -3,10 +3,10 @@ import time
 
 def worker():
     print "workder"
-    time.sleep(1)
-    return
+    time.sleep(60)
 
-if __name__ =="__main__":
-    for i in xrange(5):
-        worker()
+for i in xrange(5):
+    t=threading.Thread(target=worker)
+    t.start()
+
 print "".format(threading.activeCount())
