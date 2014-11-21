@@ -1,0 +1,5 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+http_proxy="http://proxy01.cd.intel.com:911/"
+https_proxy="https://proxy01.cd.intel.com:912/"
+ftp_proxy="ftp://proxy01.cd.intel.com:21/"
+socks_proxy="socks://proxy-socks.jf.intel.com:1080/"
