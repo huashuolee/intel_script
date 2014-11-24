@@ -9,7 +9,6 @@ def proc2(pipe):
     print ('proc2 rec:', pipe.recv())
 
 pipe = mul.Pipe()
-
 p1 = mul.Process(target=proc1, args=(pipe[0],))
 p1.start()
 p2 = mul.Process(target=proc2, args=(pipe[1],))
