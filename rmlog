@@ -1,0 +1,18 @@
+#!/bin/bash
+adb devices 
+ss=""
+[[ -n $1 ]] && ss="-s $1"
+
+
+echo "Press a key to start catching logs (c:\logs), the logs before will be deleted."
+echo "Catching logs..."
+adb $ss "wait-for-device" root 
+adb $ss "wait-for-device" remount
+adb $ss "wait-for-device"
+adb $ss shell "rm -rf /logs/"
+adb $ss shell "rm -rf /data/logs/"
+adb $ss shell "rm -rf /logs/panic/"
+adb $ss shell "rm -rf /data/anr/"
+adb $ss shell "rm -rf /data/tombstones/"
+adb $ss shell "rm -rf /sdcard/logs/" 
+echo "over!!!!"

@@ -9,6 +9,9 @@ rm -rf ~/logs*
 rm -rf ~/logs
 mkdir -p ~/logs
 echo "Catching logs..."
+adb $ss "wait-for-device" root 
+adb $ss "wait-for-device" remount
+adb $ss "wait-for-device"
 adb $ss pull /logs/ ~/logs/aplogs/
 adb $ss pull /data/logs/ ~/logs/aplogs/
 adb $ss pull /logs/panic/ ~/logs/panic/
