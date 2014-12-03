@@ -1,7 +1,6 @@
 import socket,os,threading
 HOST = ''
 PORT = 8001
-MAX = 10
 
 class chatroom():
 
