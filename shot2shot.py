@@ -1,4 +1,5 @@
 import time
+#interval = raw_input('input interval: ')
 new_list = raw_input('input the num:')
 new_list = new_list.split()
 interval = []
