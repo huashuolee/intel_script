@@ -1,5 +1,8 @@
 import time
-#interval = raw_input('input interval: ')
+import logging
+logging.basicConfig(level=logging.DEBUG,format="[%(asctime)s] %(name)s:%(levelname)s: %(message)s")
+unit = raw_input('input unit: ')
+logging.debug(type(unit))
 new_list = raw_input('input the num:')
 new_list = new_list.split()
 interval = []
@@ -11,7 +14,8 @@ for i in range(len(new_list)-1):
 print interval
 average = sum(interval)/(len(new_list)-1.0)
 print 'Average: {}'.format(average)
-shot2shot = average * 4 
+logging.debug(interval)
+shot2shot = average * float(unit) 
 print 'shot2shot: {} ms'.format(shot2shot)
 f = open('shot2shot.log','aw')
 f.write(time.strftime("%Y-%m-%d-%T\n"))
