@@ -1,4 +1,6 @@
-import uiautomator,os,time
+import uiautomator
+import os
+import time
 
 d = uiautomator.Device()
 

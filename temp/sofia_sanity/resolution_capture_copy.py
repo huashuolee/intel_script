@@ -1,4 +1,5 @@
-import os,uiautomator,time
+import uiautomator
+import time
 
 d = uiautomator.Device()
 
@@ -10,11 +11,13 @@ def settings():
     d.click(531,286)
     time.sleep(3)
 
+# select different resolution and take picture
 def capture(x,y):
-   d.click(x,y) 
-   time.sleep(3)
-   d.press.camera()
+    d.click(x,y) 
+    time.sleep(3)
+    d.press.camera()
 
+       
 position = [(587,130),(587,185),(587,280),(587,330),(587,420),(587,490),(587,570)]
 
 for i in xrange(100):

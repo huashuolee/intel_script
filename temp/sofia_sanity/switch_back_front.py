@@ -1,4 +1,5 @@
-import os,time
+import os
+import time
 
 cmd_settings = 'adb shell input tap 881 176'
 cmd_switch = 'adb shell input tap 607 361'
