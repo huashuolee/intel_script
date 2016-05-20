@@ -1,2 +1,0 @@
-Calculate PSNR ./yuv/encode_surface.17318.f92670f0 vs ./yuv/1080p.yuv, (1920x1080, 199 frames)
-stddev:   85.41 PSNR:  9.49 bytes:618969600/466560000
